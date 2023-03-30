@@ -1,0 +1,5 @@
+ LDFLAGS      += -lhdf5 -lz
+ CFLAGS       += -DUSE_HDF5 -g #-DH5_USE_16_API 
+ OBJ          += hdf5_io.o
+ 
+ OBJ += tracer_rhs_flux.o tracer_rhs.o
