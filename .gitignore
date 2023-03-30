@@ -59,3 +59,5 @@ makefile
 *.dbl
 *.flt
 *.h5
+./output/
+./no-diffusion/output/
